@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eskape Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="container flex-container">
+        <h1>Eskape Center - Centro Automotivo</h1>
+        <div class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav>
+        <div class="container" >
+          <ul>
+            <li class="nav-link">
+              <a href="#" id="about">Sobre Nós</a>
+            </li>
+            <li class="nav-link">
+              <a href="#" id="serv">Serviços</a>
+            </li>
+            <li class="nav-link">
+              <a href="https://wa.me/5581994056667" target="_blank">Agendamento <img src="./icones/whatsapp.png" alt=""></a>
+              
+            </li>
+            <li class="nav-link">
+              <a href="#" id="contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="carousel">
+      <img src="./images/slide1.png" alt="Porsche Car">
+      <img src="./images/slide2.png" alt="BMW Car">
+      <img src="./images/slide3.png" alt="Ford Car">
+    </div>
+    <section id="about">
+      <div class="container flex-container">
+        <img src="./images/frente.jpg" alt="Store picture">
+        
+        <div>
+          <h2>Sobre Nós</h2>
+          <p>Especializados em Veículos de pequeno e médio porte, dispomos de uma gama de serviços para melhor atende-lo. Atuamos a mais de 30 anos com o selo de confiaça de diversas gestoras e empresas parceiras. Agende já sua visita!</p>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section id="serv">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <ul class="tab">
+          <li>
+            <figure>
+              <img src="./icones/alinh.png" alt="">
+              <figcaption>Alinhamento</figcaption>
+            </figure> 
+          </li>
+          <li>
+            <figure>
+              <img src="./icones/balan.png" alt="">
+              <figcaption>Balanceamento</figcaption>
+            </figure> 
+          </li>
+          <li>
+            <figure>
+              <img src="./icones/motor.png" alt="">
+              <figcaption>Motor</figcaption>
+            </figure> 
+          </li>
+          <li>
+            <figure>
+              <img src="./icones/inje.png" alt="">
+              <figcaption>Injeção Eletrônica</figcaption>
+            </figure> 
+          </li>
+          <li>
+            <figure>
+              <img src="./icones/freios.png" alt="">
+              <figcaption>Freios</figcaption>
+            </figure> 
+          </li>
+          <li>
+            <figure>
+              <img src="./icones/eletr.png" alt="">
+              <figcaption>Elétrica</figcaption>
+            </figure> 
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="loc">
+      <div class="container flex-container">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=eskape+center&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://timenowin.net/">online clock</a><br><a href="https://www.analarmclock.com/"></a><br><style>.mapouter{position: relative;text-align: right;height: 400px;width: 600px;}</style><a href="https://www.embedmaps.co">adding google map to website</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 400px;width: 600px;}</style></div></div>
+        
+        <div>
+          <h2>Localização</h2>
+          <p>Estamos localizados próximo ao Caruaru Shopping</p>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <h2>Contato</h2>
+        <form id="contato">
+          <div class="camp">
+            <label for="name">Seu Nome</label>
+            <input type="text"  id="name" name="name">
+          </div>
+          <div class="camp">
+            <label for="phone">Telefone para Contato</label>
+            <input type="tel"  id="phone" name="phone">
+          </div>
+          <div class="camp">
+            <label for="email">Email</label>
+            <input type="email"  id="email" name="email">
+          </div>
+          <div class="camp">
+            <label for="message">Mensagem</label>
+            <textarea  id="message" name="message"></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <section>
+      <footer>
+        <div class="container flex-container">
+          <p>
+           Eskape Center<br>
+            CNPJ: 17.596.667/0001-00<br>
+            Rua Oscar Laranjeira, nº 107<br>
+            B - Indianópolis<br>
+            Caruaru-PE<br>
+            Fone: (81) 99999-9999 / (81) 3723-3535
+
+
+          </p>
+          <ul class="flex-container">
+            <li>
+              <a href="#">
+                <img src="./icones/facebook.png" alt="Facebook">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./icones/instagram.png" alt="Instagram">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./icones/youtube.png" alt="YouTube">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+
+</html>
